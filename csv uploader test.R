@@ -19,3 +19,6 @@ write.csv(data_canada_RAW,"data_heathlunits_raw.csv", row.names = FALSE)
 ########
 install_github("dudeandu/canada_covid")
 git remote add origin git@github.com:dudeandu/gituploader_test.git
+
+#### push command in terminal
+git push -u origin master

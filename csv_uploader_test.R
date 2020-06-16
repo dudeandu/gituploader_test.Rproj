@@ -25,3 +25,7 @@ print('done')
 
 #### push command in terminal
 ## git push -u origin master
+
+
+### just run this on the command line
+## Rscript csv_uploader_test.R

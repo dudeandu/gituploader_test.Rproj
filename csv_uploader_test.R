@@ -1,8 +1,8 @@
 #### https://health-infobase.canada.ca/src/data/covidLive/covid19.csv
-setwd("~/Desktop/R canada covid Csv updater")
+## setwd("~/Desktop/R canada covid Csv updater")
 
-install.packages("devtools")
-library(devtools)
+## install.packages("devtools")
+## library(devtools)
 ## install_github("dudeandu/canada_covid")
 
 data_canada_RAW <- read.csv("https://health-infobase.canada.ca/src/data/covidLive/covid19.csv")
@@ -16,9 +16,12 @@ head(data_heathlunits_RAW)
 str(data_heathlunits_RAW)
 write.csv(data_canada_RAW,"data_heathlunits_raw.csv", row.names = FALSE)
 
+
+print('done')
+
 ########
-install_github("dudeandu/canada_covid")
-git remote add origin git@github.com:dudeandu/gituploader_test.git
+## install_github("dudeandu/canada_covid")
+## git remote add origin git@github.com:dudeandu/gituploader_test.git
 
 #### push command in terminal
-git push -u origin master
+## git push -u origin master

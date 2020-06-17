@@ -23,9 +23,13 @@ print('done')
 ## install_github("dudeandu/canada_covid")
 ## git remote add origin git@github.com:dudeandu/gituploader_test.git
 
-#### push command in terminal
-## git push -u origin master
 
 
 ### just run this on the command line
 ## Rscript csv_uploader_test.R
+
+### commits
+## git commit -m <update for  today's date>
+
+#### push
+## git push -u origin master

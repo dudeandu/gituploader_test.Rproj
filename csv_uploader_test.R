@@ -29,7 +29,9 @@ print('done')
 ## Rscript csv_uploader_test.R
 
 ### commits
-## git commit -m <update for  today's date>
+## git add canada_data_raw.csv
+## git add data_heathlunits_raw.csv
+## git commit -m "update for  today's date" 
 
-#### push
+#### push 
 ## git push -u origin master

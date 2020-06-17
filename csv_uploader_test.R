@@ -31,7 +31,7 @@ print('done')
 ### commits
 ## git add canada_data_raw.csv
 ## git add data_heathlunits_raw.csv
-## git commit -m "update for  today's date" 
+## git commit -a -m "update for  today's date" 
 
 #### push 
 ## git push -u origin master
